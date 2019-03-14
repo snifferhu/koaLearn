@@ -1,0 +1,22 @@
+{
+  "name": "koalearn",
+  "version": "1.0.0",
+  "description": "Just a koa learn project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "koa": "2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snifferhu/koaLearn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snifferhu/koaLearn/issues"
+  },
+  "homepage": "https://github.com/snifferhu/koaLearn#readme"
+}
