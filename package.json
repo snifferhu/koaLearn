@@ -9,7 +9,8 @@
   "dependencies": {
     "koa": "2.7.0",
     "koa-bodyparser": "^4.2.1",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.18.10"
   },
   "repository": {
     "type": "git",
