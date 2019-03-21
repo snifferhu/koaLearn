@@ -48,5 +48,5 @@ router.get('/404', async (ctx, next) => {
 app.use(router.routes())
 
 app.listen(3000, () => {
-    console.log('server is running at http://localhost:3000');
+    gitconsole.log('server is running at http://localhost:3000');
 })
