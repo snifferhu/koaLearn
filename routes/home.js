@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const router = require('koa-router')()
 
 module.exports  = function home(app){
@@ -7,3 +8,22 @@ module.exports  = function home(app){
     });
     app.use(router.routes());
 };
+=======
+const router = require('koa-router')();
+const HomeController = require('./controller/home');
+
+module.exports = (app) => {
+    router.get('/', HomeController.index)
+
+    router.get('/home', HomeController.home)
+
+    router.get('/home/:id/:name', HomeController.homeParams)
+
+    router.get('/user', HomeController.login)
+
+    router.post('/user/register', HomeController.register)
+
+    app.use(router.routes())
+        .use(router.allowedMethods())
+}
+>>>>>>> 40a3d23522a3ca3dc850db5de2f67fc8d044a4a1
