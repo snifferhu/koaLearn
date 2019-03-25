@@ -1,14 +1,12 @@
-<<<<<<< HEAD
-const router = require('koa-router')()
+// const router = require('koa-router')()
 
-module.exports  = function home(app){
-    router.get('/home', async(ctx,next)=>{
-        ctx.response.title = 'Home';
-        ctx.response.body = '<h1>Home Page</h1>';
-    });
-    app.use(router.routes());
-};
-=======
+// module.exports  = function home(app){
+//     router.get('/home', async(ctx,next)=>{
+//         ctx.response.title = 'Home';
+//         ctx.response.body = '<h1>Home Page</h1>';
+//     });
+//     app.use(router.routes());
+// };
 const router = require('koa-router')();
 const HomeController = require('./controller/home');
 
@@ -26,4 +24,3 @@ module.exports = (app) => {
     app.use(router.routes())
         .use(router.allowedMethods())
 }
->>>>>>> 40a3d23522a3ca3dc850db5de2f67fc8d044a4a1

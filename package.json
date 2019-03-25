@@ -10,11 +10,8 @@
     "koa": "2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
-<<<<<<< HEAD
     "mongodb": "^3.1.13",
-=======
     "mongoose": "^5.4.19",
->>>>>>> 40a3d23522a3ca3dc850db5de2f67fc8d044a4a1
     "nodemon": "^1.18.10",
     "require-directory": "^2.1.1"
   },
